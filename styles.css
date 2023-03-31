@@ -1,0 +1,148 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Buttons */
+button {
+    background-color: #3882F6;
+    color: white;
+    outline-color: white;
+    outline: auto;
+    border: none;
+    border-radius: 5px; 
+    padding: 15px 20px; 
+    cursor: pointer; 
+    font-size: 1rem;
+    transition: background-color 0.3s ease; 
+  }
+
+  button:hover {
+    background-color: darkblue; 
+  }
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+    background-color: #1F2937;
+    color: white;
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+  }
+  
+  .hero-text {
+    padding: 1rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    color: white;
+    overflow-wrap: break-word;
+    text-align: start;
+  }
+
+  .hero-text p {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .gray-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+    padding: 1rem; 
+    text-align: center; 
+    overflow-wrap: break-word;
+  }
+  
+  
+  /* Press Section */
+  .press {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7rem 27rem;
+  }
+  
+  .blue-square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 15px;
+  }
+
+  .press-header {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 50%; /* Adjust these values to position the span as needed */
+    transform: translate(-50%, -50%); /* Center the span relative to its position */
+    z-index: 2; /* Add this line to ensure the span stays on top of the squares */
+  }
+  
+  /* Testimonial Section */
+  .testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+  }
+
+  .testimonial strong {
+    display: flex;
+    justify-content: right;
+    padding: 1rem 0;
+  }
+  
+  /* Call to Action Section */
+  .call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 1rem 5rem;
+    margin: 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+  }
+  
